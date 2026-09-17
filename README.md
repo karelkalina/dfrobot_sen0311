@@ -5,7 +5,6 @@ This directory contains the ESPHome configuration for the DFRobot SEN0311 Ultras
 ## ROS 2 Node
 The corresponding ROS 2 node for this sensor is `sen0311_node`. It polls the ESPHome web server to retrieve distance measurements and publishes them as a `sensor_msgs/Range` message.
 
-- **Default IP:** `192.168.105.67`
 - **ESPHome Endpoint:** `/sensor/distance`
 - **Output Topic:** `/sen0311/distance` (Range in meters)
 - **Frame ID:** `sen0311_link`
