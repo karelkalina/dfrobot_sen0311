@@ -1,4 +1,0 @@
-black -> brown -> black
-red -> red -> red
-blue -> yellow -> yellow
-green ->white -> white
