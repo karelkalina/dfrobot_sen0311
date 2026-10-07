@@ -1,0 +1,3 @@
+[console_scripts]
+sen0311_node = sen0311_driver.sen0311_node:main
+

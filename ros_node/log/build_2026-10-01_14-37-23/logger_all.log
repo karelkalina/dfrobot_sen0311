@@ -1,0 +1,117 @@
+[1.892s] DEBUG:colcon:Command line arguments: ['/usr/bin/colcon', 'build']
+[1.894s] DEBUG:colcon:Parsed command line arguments: Namespace(log_base=None, log_level=None, verb_name='build', build_base='build', install_base='install', merge_install=False, symlink_install=False, test_result_base=None, continue_on_error=False, executor='parallel', parallel_workers=12, event_handlers=None, ignore_user_meta=False, metas=['./colcon.meta'], base_paths=['.'], packages_ignore=None, packages_ignore_regex=None, paths=None, packages_up_to=None, packages_up_to_regex=None, packages_above=None, packages_above_and_dependencies=None, packages_above_depth=None, packages_select_by_dep=None, packages_skip_by_dep=None, packages_skip_up_to=None, packages_select_build_failed=False, packages_skip_build_finished=False, packages_select_test_failures=False, packages_skip_test_passed=False, packages_select=None, packages_skip=None, packages_select_regex=None, packages_skip_regex=None, packages_start=None, packages_end=None, allow_overriding=[], cmake_args=None, cmake_target=None, cmake_target_skip_unavailable=False, cmake_clean_cache=False, cmake_clean_first=False, cmake_force_configure=False, ament_cmake_args=None, catkin_cmake_args=None, catkin_skip_building_tests=False, mixin_files=None, mixin=None, verb_parser=<colcon_mixin.mixin.mixin_argument.MixinArgumentDecorator object at 0x716c544ac2b0>, verb_extension=<colcon_core.verb.build.BuildVerb object at 0x716c544ac580>, main=<bound method BuildVerb.main of <colcon_core.verb.build.BuildVerb object at 0x716c544ac580>>, mixin_verb=('build',))
+[3.374s] Level 1:colcon.colcon_core.package_discovery:discover_packages(colcon_meta) check parameters
+[3.377s] Level 1:colcon.colcon_core.package_discovery:discover_packages(recursive) check parameters
+[3.378s] Level 1:colcon.colcon_core.package_discovery:discover_packages(ignore) check parameters
+[3.379s] Level 1:colcon.colcon_core.package_discovery:discover_packages(path) check parameters
+[3.381s] Level 1:colcon.colcon_core.package_discovery:discover_packages(colcon_meta) discover
+[3.382s] Level 1:colcon.colcon_core.package_discovery:discover_packages(recursive) discover
+[3.383s] INFO:colcon.colcon_core.package_discovery:Crawling recursively for packages in '/mnt/c/KM/SEN0311/ros_node'
+[3.388s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['ignore', 'ignore_ament_install']
+[3.389s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'ignore'
+[3.391s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'ignore_ament_install'
+[3.394s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['colcon_pkg']
+[3.395s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'colcon_pkg'
+[3.397s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['colcon_meta']
+[3.398s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'colcon_meta'
+[3.400s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['ros']
+[3.401s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'ros'
+[3.451s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['cmake', 'python']
+[3.452s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'cmake'
+[3.454s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'python'
+[3.456s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['python_setup_py']
+[3.457s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'python_setup_py'
+[3.466s] Level 1:colcon.colcon_core.package_identification:_identify(build) by extensions ['ignore', 'ignore_ament_install']
+[3.467s] Level 1:colcon.colcon_core.package_identification:_identify(build) by extension 'ignore'
+[3.472s] Level 1:colcon.colcon_core.package_identification:_identify(build) ignored
+[3.481s] Level 1:colcon.colcon_core.package_identification:_identify(install) by extensions ['ignore', 'ignore_ament_install']
+[3.482s] Level 1:colcon.colcon_core.package_identification:_identify(install) by extension 'ignore'
+[3.487s] Level 1:colcon.colcon_core.package_identification:_identify(install) ignored
+[3.501s] Level 1:colcon.colcon_core.package_identification:_identify(log) by extensions ['ignore', 'ignore_ament_install']
+[3.503s] Level 1:colcon.colcon_core.package_identification:_identify(log) by extension 'ignore'
+[3.506s] Level 1:colcon.colcon_core.package_identification:_identify(log) ignored
+[3.515s] Level 1:colcon.colcon_core.package_identification:_identify(sen0311_driver) by extensions ['ignore', 'ignore_ament_install']
+[3.516s] Level 1:colcon.colcon_core.package_identification:_identify(sen0311_driver) by extension 'ignore'
+[3.519s] Level 1:colcon.colcon_core.package_identification:_identify(sen0311_driver) by extension 'ignore_ament_install'
+[3.525s] Level 1:colcon.colcon_core.package_identification:_identify(sen0311_driver) by extensions ['colcon_pkg']
+[3.526s] Level 1:colcon.colcon_core.package_identification:_identify(sen0311_driver) by extension 'colcon_pkg'
+[3.529s] Level 1:colcon.colcon_core.package_identification:_identify(sen0311_driver) by extensions ['colcon_meta']
+[3.531s] Level 1:colcon.colcon_core.package_identification:_identify(sen0311_driver) by extension 'colcon_meta'
+[3.534s] Level 1:colcon.colcon_core.package_identification:_identify(sen0311_driver) by extensions ['ros']
+[3.535s] Level 1:colcon.colcon_core.package_identification:_identify(sen0311_driver) by extension 'ros'
+[3.611s] DEBUG:colcon.colcon_core.package_identification:Package 'sen0311_driver' with type 'ros.ament_python' and name 'sen0311_driver'
+[3.612s] Level 1:colcon.colcon_core.package_discovery:discover_packages(recursive) using defaults
+[3.613s] Level 1:colcon.colcon_core.package_discovery:discover_packages(ignore) discover
+[3.615s] Level 1:colcon.colcon_core.package_discovery:discover_packages(ignore) using defaults
+[3.616s] Level 1:colcon.colcon_core.package_discovery:discover_packages(path) discover
+[3.617s] Level 1:colcon.colcon_core.package_discovery:discover_packages(path) using defaults
+[3.916s] Level 1:colcon.colcon_core.package_discovery:discover_packages(prefix_path) check parameters
+[3.918s] Level 1:colcon.colcon_core.package_discovery:discover_packages(prefix_path) discover
+[4.049s] DEBUG:colcon.colcon_installed_package_information.package_discovery:Found 1 installed packages in /mnt/c/KM/SEN0311/ros_node/install
+[4.135s] DEBUG:colcon.colcon_installed_package_information.package_discovery:Found 1 installed packages in /mnt/c/KM/ROS2-Sensor-Nodes-RVZ/install
+[4.145s] DEBUG:colcon.colcon_installed_package_information.package_discovery:Found 377 installed packages in /opt/ros/humble
+[4.150s] Level 1:colcon.colcon_core.package_discovery:discover_packages(prefix_path) using defaults
+[4.584s] Level 5:colcon.colcon_core.verb:set package 'sen0311_driver' build argument 'cmake_args' from command line to 'None'
+[4.585s] Level 5:colcon.colcon_core.verb:set package 'sen0311_driver' build argument 'cmake_target' from command line to 'None'
+[4.586s] Level 5:colcon.colcon_core.verb:set package 'sen0311_driver' build argument 'cmake_target_skip_unavailable' from command line to 'False'
+[4.588s] Level 5:colcon.colcon_core.verb:set package 'sen0311_driver' build argument 'cmake_clean_cache' from command line to 'False'
+[4.589s] Level 5:colcon.colcon_core.verb:set package 'sen0311_driver' build argument 'cmake_clean_first' from command line to 'False'
+[4.590s] Level 5:colcon.colcon_core.verb:set package 'sen0311_driver' build argument 'cmake_force_configure' from command line to 'False'
+[4.591s] Level 5:colcon.colcon_core.verb:set package 'sen0311_driver' build argument 'ament_cmake_args' from command line to 'None'
+[4.592s] Level 5:colcon.colcon_core.verb:set package 'sen0311_driver' build argument 'catkin_cmake_args' from command line to 'None'
+[4.594s] Level 5:colcon.colcon_core.verb:set package 'sen0311_driver' build argument 'catkin_skip_building_tests' from command line to 'False'
+[4.595s] DEBUG:colcon.colcon_core.verb:Building package 'sen0311_driver' with the following arguments: {'ament_cmake_args': None, 'build_base': '/mnt/c/KM/SEN0311/ros_node/build/sen0311_driver', 'catkin_cmake_args': None, 'catkin_skip_building_tests': False, 'cmake_args': None, 'cmake_clean_cache': False, 'cmake_clean_first': False, 'cmake_force_configure': False, 'cmake_target': None, 'cmake_target_skip_unavailable': False, 'install_base': '/mnt/c/KM/SEN0311/ros_node/install/sen0311_driver', 'merge_install': False, 'path': '/mnt/c/KM/SEN0311/ros_node/sen0311_driver', 'symlink_install': False, 'test_result_base': None}
+[4.596s] INFO:colcon.colcon_core.executor:Executing jobs using 'parallel' executor
+[4.600s] DEBUG:colcon.colcon_parallel_executor.executor.parallel:run_until_complete
+[4.601s] INFO:colcon.colcon_ros.task.ament_python.build:Building ROS package in '/mnt/c/KM/SEN0311/ros_node/sen0311_driver' with build type 'ament_python'
+[4.603s] Level 1:colcon.colcon_core.shell:create_environment_hook('sen0311_driver', 'ament_prefix_path')
+[4.648s] INFO:colcon.colcon_core.plugin_system:Skipping extension 'colcon_core.shell.bat': Not used on non-Windows systems
+[4.650s] INFO:colcon.colcon_core.shell:Creating environment hook '/mnt/c/KM/SEN0311/ros_node/install/sen0311_driver/share/sen0311_driver/hook/ament_prefix_path.ps1'
+[4.728s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/mnt/c/KM/SEN0311/ros_node/install/sen0311_driver/share/sen0311_driver/hook/ament_prefix_path.dsv'
+[4.782s] INFO:colcon.colcon_core.shell:Creating environment hook '/mnt/c/KM/SEN0311/ros_node/install/sen0311_driver/share/sen0311_driver/hook/ament_prefix_path.sh'
+[4.842s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[4.843s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[8.060s] INFO:colcon.colcon_core.task.python.build:Building Python package in '/mnt/c/KM/SEN0311/ros_node/sen0311_driver'
+[8.062s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[8.063s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[13.621s] DEBUG:colcon.colcon_core.task.python.build:Available setuptools commands: install_lib, install_headers, build_py, install_data, check, alias, upload_docs, bdist_egg, setopt, install, test, update_catalog, bdist_dumb, bdist, rotate, easy_install, build_scripts, build_ext, saveopts, compile_catalog, extract_messages, register, install_scripts, egg_info, develop, upload, sdist, symlink_data, clean, build, install_egg_info, bdist_rpm, dist_info, init_catalog, build_clib
+[13.686s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/mnt/c/KM/SEN0311/ros_node/sen0311_driver': PYTHONPATH=/mnt/c/KM/SEN0311/ros_node/build/sen0311_driver/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/mnt/c/KM/SEN0311/ros_node/install/sen0311_driver/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base ../build/sen0311_driver build --build-base /mnt/c/KM/SEN0311/ros_node/build/sen0311_driver/build install --record /mnt/c/KM/SEN0311/ros_node/build/sen0311_driver/install.log --install-scripts $base/lib/sen0311_driver --single-version-externally-managed install_data
+[19.277s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/mnt/c/KM/SEN0311/ros_node/sen0311_driver' returned '0': PYTHONPATH=/mnt/c/KM/SEN0311/ros_node/build/sen0311_driver/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/mnt/c/KM/SEN0311/ros_node/install/sen0311_driver/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base ../build/sen0311_driver build --build-base /mnt/c/KM/SEN0311/ros_node/build/sen0311_driver/build install --record /mnt/c/KM/SEN0311/ros_node/build/sen0311_driver/install.log --install-scripts $base/lib/sen0311_driver --single-version-externally-managed install_data
+[19.328s] Level 1:colcon.colcon_core.environment:checking '/mnt/c/KM/SEN0311/ros_node/install/sen0311_driver' for CMake module files
+[19.483s] Level 1:colcon.colcon_core.environment:checking '/mnt/c/KM/SEN0311/ros_node/install/sen0311_driver' for CMake config files
+[19.662s] Level 1:colcon.colcon_core.environment:checking '/mnt/c/KM/SEN0311/ros_node/install/sen0311_driver/lib'
+[19.670s] Level 1:colcon.colcon_core.environment:checking '/mnt/c/KM/SEN0311/ros_node/install/sen0311_driver/bin'
+[19.673s] Level 1:colcon.colcon_core.environment:checking '/mnt/c/KM/SEN0311/ros_node/install/sen0311_driver/lib/pkgconfig/sen0311_driver.pc'
+[19.678s] Level 1:colcon.colcon_core.environment:checking '/mnt/c/KM/SEN0311/ros_node/install/sen0311_driver/lib/python3.10/site-packages'
+[19.683s] Level 1:colcon.colcon_core.shell:create_environment_hook('sen0311_driver', 'pythonpath')
+[19.684s] INFO:colcon.colcon_core.shell:Creating environment hook '/mnt/c/KM/SEN0311/ros_node/install/sen0311_driver/share/sen0311_driver/hook/pythonpath.ps1'
+[19.756s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/mnt/c/KM/SEN0311/ros_node/install/sen0311_driver/share/sen0311_driver/hook/pythonpath.dsv'
+[19.797s] INFO:colcon.colcon_core.shell:Creating environment hook '/mnt/c/KM/SEN0311/ros_node/install/sen0311_driver/share/sen0311_driver/hook/pythonpath.sh'
+[19.834s] Level 1:colcon.colcon_core.environment:checking '/mnt/c/KM/SEN0311/ros_node/install/sen0311_driver/bin'
+[19.838s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(sen0311_driver)
+[19.840s] INFO:colcon.colcon_core.shell:Creating package script '/mnt/c/KM/SEN0311/ros_node/install/sen0311_driver/share/sen0311_driver/package.ps1'
+[19.906s] INFO:colcon.colcon_core.shell:Creating package descriptor '/mnt/c/KM/SEN0311/ros_node/install/sen0311_driver/share/sen0311_driver/package.dsv'
+[19.945s] INFO:colcon.colcon_core.shell:Creating package script '/mnt/c/KM/SEN0311/ros_node/install/sen0311_driver/share/sen0311_driver/package.sh'
+[19.997s] INFO:colcon.colcon_core.shell:Creating package script '/mnt/c/KM/SEN0311/ros_node/install/sen0311_driver/share/sen0311_driver/package.bash'
+[20.041s] INFO:colcon.colcon_core.shell:Creating package script '/mnt/c/KM/SEN0311/ros_node/install/sen0311_driver/share/sen0311_driver/package.zsh'
+[20.084s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/mnt/c/KM/SEN0311/ros_node/install/sen0311_driver/share/colcon-core/packages/sen0311_driver)
+[20.107s] DEBUG:colcon.colcon_parallel_executor.executor.parallel:closing loop
+[20.108s] DEBUG:colcon.colcon_parallel_executor.executor.parallel:loop closed
+[20.109s] DEBUG:colcon.colcon_parallel_executor.executor.parallel:run_until_complete finished with '0'
+[20.110s] DEBUG:colcon.colcon_core.event_reactor:joining thread
+[20.318s] INFO:colcon.colcon_core.plugin_system:Skipping extension 'colcon_notification.desktop_notification.notify_send': Could not find 'notify-send'
+[20.319s] INFO:colcon.colcon_core.plugin_system:Skipping extension 'colcon_notification.desktop_notification.terminal_notifier': Not used on non-Darwin systems
+[20.321s] INFO:colcon.colcon_core.plugin_system:Skipping extension 'colcon_notification.desktop_notification.win32': Not used on non-Windows systems
+[20.322s] INFO:colcon.colcon_notification.desktop_notification:Sending desktop notification using 'notify2'
+[20.429s] DEBUG:colcon.colcon_notification.desktop_notification.notify2:Failed to initialize notify2: org.freedesktop.DBus.Error.ServiceUnknown: The name org.freedesktop.Notifications was not provided by any .service files
+[20.430s] DEBUG:colcon.colcon_core.event_reactor:joined thread
+[20.432s] INFO:colcon.colcon_core.shell:Creating prefix script '/mnt/c/KM/SEN0311/ros_node/install/local_setup.ps1'
+[20.490s] INFO:colcon.colcon_core.shell:Creating prefix util module '/mnt/c/KM/SEN0311/ros_node/install/_local_setup_util_ps1.py'
+[20.528s] INFO:colcon.colcon_core.shell:Creating prefix chain script '/mnt/c/KM/SEN0311/ros_node/install/setup.ps1'
+[20.606s] INFO:colcon.colcon_core.shell:Creating prefix script '/mnt/c/KM/SEN0311/ros_node/install/local_setup.sh'
+[20.642s] INFO:colcon.colcon_core.shell:Creating prefix util module '/mnt/c/KM/SEN0311/ros_node/install/_local_setup_util_sh.py'
+[20.673s] INFO:colcon.colcon_core.shell:Creating prefix chain script '/mnt/c/KM/SEN0311/ros_node/install/setup.sh'
+[20.737s] INFO:colcon.colcon_core.shell:Creating prefix script '/mnt/c/KM/SEN0311/ros_node/install/local_setup.bash'
+[20.788s] INFO:colcon.colcon_core.shell:Creating prefix chain script '/mnt/c/KM/SEN0311/ros_node/install/setup.bash'
+[20.857s] INFO:colcon.colcon_core.shell:Creating prefix script '/mnt/c/KM/SEN0311/ros_node/install/local_setup.zsh'
+[20.884s] INFO:colcon.colcon_core.shell:Creating prefix chain script '/mnt/c/KM/SEN0311/ros_node/install/setup.zsh'

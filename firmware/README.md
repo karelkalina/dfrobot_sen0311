@@ -1,18 +1,18 @@
-# SEN0311 (Ultrasonic) Sensor Node
+# SEN0311 (Ultrasonic) Sensor Firmware using espHome
 
-This directory contains the ESPHome configuration for the DFRobot SEN0311 Ultrasonic distance sensor (uses `a02yyuw` platform).
+- manual ip adress(192.168.40.20)
+- http://192.168.40.20/sensor/distance
 
-## ROS 2 Node
-The corresponding ROS 2 node for this sensor is `sen0311_node`. It polls the ESPHome web server to retrieve distance measurements and publishes them as a `sensor_msgs/Range` message.
+Wiring
+    - For wiring instructions see https://docs.m5stack.com/en/core/Atom-Lite and https://wiki.dfrobot.com/sen0311/#tech_specs
+    
+    sensor -> jumper cable -> cable m5
 
-- **Default IP:** `192.168.105.67`
-- **ESPHome Endpoint:** `/sensor/distance`
-- **Output Topic:** `/sen0311/distance` (Range in meters)
-- **Frame ID:** `sen0311_link`
+    black -> brown -> black
+    red -> red -> red
+    blue -> yellow -> yellow
+    green ->white -> white
 
-### Usage
-Run the node using:
-```bash
-source /mnt/c/KM/ROS2-Sensor-Nodes-RVZ/install/setup.bash
-ros2 run rovozci_glsensor sen0311_node --ros-args -p sensor_ip:="192.168.105.67"
+    cable : https://docs.m5stack.com/en/accessory/cable/grove_cable
+
 ```

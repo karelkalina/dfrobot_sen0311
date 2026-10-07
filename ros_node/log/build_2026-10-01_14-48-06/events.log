@@ -1,0 +1,192 @@
+[0.000000] (-) TimerEvent: {}
+[0.002002] (sen0311_driver) JobQueued: {'identifier': 'sen0311_driver', 'dependencies': OrderedDict()}
+[0.003269] (sen0311_driver) JobStarted: {'identifier': 'sen0311_driver'}
+[0.096930] (-) TimerEvent: {}
+[0.205677] (-) TimerEvent: {}
+[0.308453] (-) TimerEvent: {}
+[0.410434] (-) TimerEvent: {}
+[0.512471] (-) TimerEvent: {}
+[0.614586] (-) TimerEvent: {}
+[0.725131] (-) TimerEvent: {}
+[0.826858] (-) TimerEvent: {}
+[0.928718] (-) TimerEvent: {}
+[1.030577] (-) TimerEvent: {}
+[1.132632] (-) TimerEvent: {}
+[1.238890] (-) TimerEvent: {}
+[1.340902] (-) TimerEvent: {}
+[1.442964] (-) TimerEvent: {}
+[1.544819] (-) TimerEvent: {}
+[1.649244] (-) TimerEvent: {}
+[1.753050] (-) TimerEvent: {}
+[1.855400] (-) TimerEvent: {}
+[1.958839] (-) TimerEvent: {}
+[2.060701] (-) TimerEvent: {}
+[2.162560] (-) TimerEvent: {}
+[2.271884] (-) TimerEvent: {}
+[2.373611] (-) TimerEvent: {}
+[2.476176] (-) TimerEvent: {}
+[2.578191] (-) TimerEvent: {}
+[2.682602] (-) TimerEvent: {}
+[2.785306] (-) TimerEvent: {}
+[2.887080] (-) TimerEvent: {}
+[2.988957] (-) TimerEvent: {}
+[3.090670] (-) TimerEvent: {}
+[3.192449] (-) TimerEvent: {}
+[3.294693] (-) TimerEvent: {}
+[3.396357] (-) TimerEvent: {}
+[3.498185] (-) TimerEvent: {}
+[3.601747] (-) TimerEvent: {}
+[3.703531] (-) TimerEvent: {}
+[3.805826] (-) TimerEvent: {}
+[3.907373] (-) TimerEvent: {}
+[4.009401] (-) TimerEvent: {}
+[4.119992] (-) TimerEvent: {}
+[4.222082] (-) TimerEvent: {}
+[4.323882] (-) TimerEvent: {}
+[4.425937] (-) TimerEvent: {}
+[4.527986] (-) TimerEvent: {}
+[4.633303] (-) TimerEvent: {}
+[4.735159] (-) TimerEvent: {}
+[4.836783] (-) TimerEvent: {}
+[4.938393] (-) TimerEvent: {}
+[5.040141] (-) TimerEvent: {}
+[5.144722] (-) TimerEvent: {}
+[5.246529] (-) TimerEvent: {}
+[5.350854] (-) TimerEvent: {}
+[5.453708] (-) TimerEvent: {}
+[5.555879] (-) TimerEvent: {}
+[5.657760] (-) TimerEvent: {}
+[5.759414] (-) TimerEvent: {}
+[5.861122] (-) TimerEvent: {}
+[5.962663] (-) TimerEvent: {}
+[6.064459] (-) TimerEvent: {}
+[6.171269] (-) TimerEvent: {}
+[6.273183] (-) TimerEvent: {}
+[6.375054] (-) TimerEvent: {}
+[6.476926] (-) TimerEvent: {}
+[6.578827] (-) TimerEvent: {}
+[6.680431] (-) TimerEvent: {}
+[6.782170] (-) TimerEvent: {}
+[6.883847] (-) TimerEvent: {}
+[6.985716] (-) TimerEvent: {}
+[7.087391] (-) TimerEvent: {}
+[7.189241] (-) TimerEvent: {}
+[7.291027] (-) TimerEvent: {}
+[7.393482] (-) TimerEvent: {}
+[7.495077] (-) TimerEvent: {}
+[7.597116] (-) TimerEvent: {}
+[7.698746] (-) TimerEvent: {}
+[7.800793] (-) TimerEvent: {}
+[7.910200] (-) TimerEvent: {}
+[8.011688] (-) TimerEvent: {}
+[8.113370] (-) TimerEvent: {}
+[8.215096] (-) TimerEvent: {}
+[8.317085] (-) TimerEvent: {}
+[8.421219] (-) TimerEvent: {}
+[8.523100] (-) TimerEvent: {}
+[8.625166] (-) TimerEvent: {}
+[8.727386] (-) TimerEvent: {}
+[8.829377] (-) TimerEvent: {}
+[8.937127] (-) TimerEvent: {}
+[9.039221] (-) TimerEvent: {}
+[9.141079] (-) TimerEvent: {}
+[9.194025] (sen0311_driver) Command: {'cmd': ['/usr/bin/python3', '-W', 'ignore:setup.py install is deprecated', '-W', 'ignore:easy_install command is deprecated', 'setup.py', 'egg_info', '--egg-base', '../build/sen0311_driver', 'build', '--build-base', '/mnt/c/KM/SEN0311/ros_node/build/sen0311_driver/build', 'install', '--record', '/mnt/c/KM/SEN0311/ros_node/build/sen0311_driver/install.log', '--install-scripts', '$base/lib/sen0311_driver', '--single-version-externally-managed', 'install_data'], 'cwd': '/mnt/c/KM/SEN0311/ros_node/sen0311_driver', 'env': {'LESSOPEN': '| /usr/bin/lesspipe %s', 'USER': 'fakeqwertzy', 'SHLVL': '1', 'LD_LIBRARY_PATH': '/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib', 'WT_PROFILE_ID': '{0caa0dad-35be-5f56-a8ff-afceeeaa6101}', 'HOME': '/home/fakeqwertzy', 'OLDPWD': '/mnt/c/KM/SEN0311', 'NVM_BIN': '/home/fakeqwertzy/.nvm/versions/node/v24.19.0/bin', 'NVM_INC': '/home/fakeqwertzy/.nvm/versions/node/v24.19.0/include/node', 'ROS_PYTHON_VERSION': '3', 'WSL_DISTRO_NAME': 'Ubuntu', 'NVM_DIR': '/home/fakeqwertzy/.nvm', 'WAYLAND_DISPLAY': 'wayland-0', 'COLCON_PREFIX_PATH': '/mnt/c/KM/SEN0311/ros_node/install:/mnt/c/KM/ROS2-Sensor-Nodes-RVZ/install', 'ROS_DISTRO': 'humble', 'LOGNAME': 'fakeqwertzy', 'NAME': 'ToJeMoje', 'WSL_INTEROP': '/run/WSL/396_interop', 'IGN_GAZEBO_MODEL_PATH': '/opt/ros/humble/share', 'PULSE_SERVER': 'unix:/mnt/wslg/PulseServer', '_': '/usr/bin/colcon', 'ROS_VERSION': '2', 'TERM': 'xterm-256color', 'GAZEBO_MODEL_PATH': '/opt/ros/humble/share', 'ROS_LOCALHOST_ONLY': '0', 'PATH': '/home/fakeqwertzy/.local/bin:/home/fakeqwertzy/.local/bin:/opt/ros/humble/bin:/home/fakeqwertzy/.local/bin:/home/fakeqwertzy/.local/bin:/home/fakeqwertzy/.pixi/bin:/home/fakeqwertzy/.nvm/versions/node/v24.19.0/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/usr/lib/wsl/lib:/mnt/c/Program Files/Common Files/Oracle/Java/javapath:/mnt/c/windows/system32:/mnt/c/windows:/mnt/c/windows/System32/Wbem:/mnt/c/windows/System32/WindowsPowerShell/v1.0/:/mnt/c/windows/System32/OpenSSH/:/mnt/c/Program Files/Git/cmd:/mnt/c/Program Files/nodejs/:/mnt/c/Program Files/dotnet/:/mnt/c/WINDOWS/system32:/mnt/c/WINDOWS:/mnt/c/WINDOWS/System32/Wbem:/mnt/c/WINDOWS/System32/WindowsPowerShell/v1.0/:/mnt/c/WINDOWS/System32/OpenSSH/:/mnt/c/Program Files/Calibre2/:/mnt/c/Program Files (x86)/IVI Foundation/VISA/WinNT/Bin:/mnt/c/Program Files/PuTTY/:/mnt/c/Program Files/usbipd-win/:/mnt/c/Program Files/Mullvad VPN/resources:/mnt/c/Program Files/WSL/:/mnt/c/Users/karel/AppData/Local/Programs/Python/Python313/Scripts/:/mnt/c/Users/karel/AppData/Local/Programs/Python/Python313/:/mnt/c/Program Files/MySQL/MySQL Shell 8.0/bin/:/mnt/c/Users/karel/AppData/Local/Microsoft/WindowsApps:/mnt/c/Users/karel/AppData/Local/Programs/Microsoft VS Code/bin:/mnt/c/Users/karel/AppData/Roaming/npm:/mnt/c/Program Files/nodejs:/mnt/c/Users/karel/.dotnet/tools:/mnt/c/Users/karel/AppData/Local/Microsoft/WindowsApps:/mnt/c/Users/karel/AppData/Local/Python/bin:/snap/bin', 'WT_SESSION': '15348fae-4888-470b-83fc-974b3d8f8dbf', 'XDG_RUNTIME_DIR': '/mnt/wslg/runtime-dir', 'DISPLAY': ':0', 'LANG': 'C.UTF-8', 'LS_COLORS': 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:', 'AMENT_PREFIX_PATH': '/mnt/c/KM/SEN0311/ros_node/install/sen0311_driver:/mnt/c/KM/ROS2-Sensor-Nodes-RVZ/install/rovozci_glsensor:/opt/ros/humble', 'SHELL': '/bin/bash', 'LESSCLOSE': '/usr/bin/lesspipe %s %s', 'IGN_GAZEBO_RESOURCE_PATH': '/opt/ros/humble/share', 'GAZEBO_RESOURCE_PATH': '/opt/ros/humble/share', 'PWD': '/mnt/c/KM/SEN0311/ros_node/build/sen0311_driver', 'NVM_CD_FLAGS': '', 'XDG_DATA_DIRS': '/usr/local/share:/usr/share:/var/lib/snapd/desktop', 'PYTHONPATH': '/mnt/c/KM/SEN0311/ros_node/build/sen0311_driver/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/mnt/c/KM/SEN0311/ros_node/install/sen0311_driver/lib/python3.10/site-packages:/mnt/c/KM/SEN0311/ros_node/install/sen0311_driver/lib/python3.10/site-packages:/mnt/c/KM/ROS2-Sensor-Nodes-RVZ/install/rovozci_glsensor/lib/python3.10/site-packages:/opt/ros/humble/lib/python3.10/site-packages:/opt/ros/humble/local/lib/python3.10/dist-packages', 'COLCON': '1', 'WSL2_GUI_APPS_ENABLED': '1', 'HOSTTYPE': 'x86_64', 'WSLENV': 'WT_SESSION:WT_PROFILE_ID:'}, 'shell': False}
+[9.241304] (-) TimerEvent: {}
+[9.343322] (-) TimerEvent: {}
+[9.445141] (-) TimerEvent: {}
+[9.547042] (-) TimerEvent: {}
+[9.648976] (-) TimerEvent: {}
+[9.750766] (-) TimerEvent: {}
+[9.852794] (-) TimerEvent: {}
+[9.959425] (-) TimerEvent: {}
+[10.061696] (-) TimerEvent: {}
+[10.163809] (-) TimerEvent: {}
+[10.266113] (-) TimerEvent: {}
+[10.368179] (-) TimerEvent: {}
+[10.471177] (-) TimerEvent: {}
+[10.572891] (-) TimerEvent: {}
+[10.674656] (-) TimerEvent: {}
+[10.776489] (-) TimerEvent: {}
+[10.878373] (-) TimerEvent: {}
+[10.981768] (-) TimerEvent: {}
+[11.083842] (-) TimerEvent: {}
+[11.186063] (-) TimerEvent: {}
+[11.289365] (-) TimerEvent: {}
+[11.391277] (-) TimerEvent: {}
+[11.493963] (-) TimerEvent: {}
+[11.596089] (-) TimerEvent: {}
+[11.698353] (-) TimerEvent: {}
+[11.800778] (-) TimerEvent: {}
+[11.902942] (-) TimerEvent: {}
+[12.006125] (-) TimerEvent: {}
+[12.108298] (-) TimerEvent: {}
+[12.210235] (-) TimerEvent: {}
+[12.312100] (-) TimerEvent: {}
+[12.414282] (-) TimerEvent: {}
+[12.517049] (-) TimerEvent: {}
+[12.618788] (-) TimerEvent: {}
+[12.720671] (-) TimerEvent: {}
+[12.822423] (-) TimerEvent: {}
+[12.924420] (-) TimerEvent: {}
+[13.033831] (-) TimerEvent: {}
+[13.135683] (-) TimerEvent: {}
+[13.237514] (-) TimerEvent: {}
+[13.286823] (sen0311_driver) StdoutLine: {'line': b'running egg_info\n'}
+[13.305395] (sen0311_driver) StdoutLine: {'line': b'writing ../build/sen0311_driver/sen0311_driver.egg-info/PKG-INFO\n'}
+[13.329763] (sen0311_driver) StdoutLine: {'line': b'writing dependency_links to ../build/sen0311_driver/sen0311_driver.egg-info/dependency_links.txt\n'}
+[13.337561] (-) TimerEvent: {}
+[13.351050] (sen0311_driver) StdoutLine: {'line': b'writing entry points to ../build/sen0311_driver/sen0311_driver.egg-info/entry_points.txt\n'}
+[13.369311] (sen0311_driver) StdoutLine: {'line': b'writing requirements to ../build/sen0311_driver/sen0311_driver.egg-info/requires.txt\n'}
+[13.380659] (sen0311_driver) StdoutLine: {'line': b'writing top-level names to ../build/sen0311_driver/sen0311_driver.egg-info/top_level.txt\n'}
+[13.437835] (-) TimerEvent: {}
+[13.494877] (sen0311_driver) StdoutLine: {'line': b"reading manifest file '../build/sen0311_driver/sen0311_driver.egg-info/SOURCES.txt'\n"}
+[13.538134] (-) TimerEvent: {}
+[13.640398] (-) TimerEvent: {}
+[13.720936] (sen0311_driver) StdoutLine: {'line': b"writing manifest file '../build/sen0311_driver/sen0311_driver.egg-info/SOURCES.txt'\n"}
+[13.730189] (sen0311_driver) StdoutLine: {'line': b'running build\n'}
+[13.735047] (sen0311_driver) StdoutLine: {'line': b'running build_py\n'}
+[13.740557] (-) TimerEvent: {}
+[13.771140] (sen0311_driver) StdoutLine: {'line': b'copying sen0311_driver/sen0311_node.py -> /mnt/c/KM/SEN0311/ros_node/build/sen0311_driver/build/lib/sen0311_driver\n'}
+[13.840859] (-) TimerEvent: {}
+[13.874282] (sen0311_driver) StdoutLine: {'line': b'running install\n'}
+[13.879325] (sen0311_driver) StdoutLine: {'line': b'running install_lib\n'}
+[13.941318] (-) TimerEvent: {}
+[14.017724] (sen0311_driver) StdoutLine: {'line': b'copying /mnt/c/KM/SEN0311/ros_node/build/sen0311_driver/build/lib/sen0311_driver/sen0311_node.py -> /mnt/c/KM/SEN0311/ros_node/install/sen0311_driver/lib/python3.10/site-packages/sen0311_driver\n'}
+[14.041597] (-) TimerEvent: {}
+[14.143419] (-) TimerEvent: {}
+[14.225873] (sen0311_driver) StdoutLine: {'line': b'byte-compiling /mnt/c/KM/SEN0311/ros_node/install/sen0311_driver/lib/python3.10/site-packages/sen0311_driver/sen0311_node.py to sen0311_node.cpython-310.pyc\n'}
+[14.243612] (-) TimerEvent: {}
+[14.345562] (-) TimerEvent: {}
+[14.373854] (sen0311_driver) StdoutLine: {'line': b'running install_data\n'}
+[14.446038] (-) TimerEvent: {}
+[14.469344] (sen0311_driver) StdoutLine: {'line': b'running install_egg_info\n'}
+[14.506611] (sen0311_driver) StdoutLine: {'line': b"removing '/mnt/c/KM/SEN0311/ros_node/install/sen0311_driver/lib/python3.10/site-packages/sen0311_driver-0.1.0-py3.10.egg-info' (and everything under it)\n"}
+[14.546200] (-) TimerEvent: {}
+[14.647966] (-) TimerEvent: {}
+[14.651806] (sen0311_driver) StdoutLine: {'line': b'Copying ../build/sen0311_driver/sen0311_driver.egg-info to /mnt/c/KM/SEN0311/ros_node/install/sen0311_driver/lib/python3.10/site-packages/sen0311_driver-0.1.0-py3.10.egg-info\n'}
+[14.748216] (-) TimerEvent: {}
+[14.850953] (-) TimerEvent: {}
+[14.954536] (-) TimerEvent: {}
+[15.063252] (-) TimerEvent: {}
+[15.165072] (-) TimerEvent: {}
+[15.273724] (-) TimerEvent: {}
+[15.375475] (-) TimerEvent: {}
+[15.431307] (sen0311_driver) StdoutLine: {'line': b'running install_scripts\n'}
+[15.475733] (-) TimerEvent: {}
+[15.581672] (-) TimerEvent: {}
+[15.683651] (-) TimerEvent: {}
+[15.732621] (sen0311_driver) StdoutLine: {'line': b'Installing sen0311_node script to /mnt/c/KM/SEN0311/ros_node/install/sen0311_driver/lib/sen0311_driver\n'}
+[15.783882] (-) TimerEvent: {}
+[15.789302] (sen0311_driver) StdoutLine: {'line': b"writing list of installed files to '/mnt/c/KM/SEN0311/ros_node/build/sen0311_driver/install.log'\n"}
+[15.849866] (sen0311_driver) CommandEnded: {'returncode': 0}
+[15.884066] (-) TimerEvent: {}
+[15.987633] (-) TimerEvent: {}
+[16.089524] (-) TimerEvent: {}
+[16.191152] (-) TimerEvent: {}
+[16.293113] (-) TimerEvent: {}
+[16.395185] (-) TimerEvent: {}
+[16.497080] (-) TimerEvent: {}
+[16.599633] (-) TimerEvent: {}
+[16.702484] (-) TimerEvent: {}
+[16.751181] (sen0311_driver) JobEnded: {'identifier': 'sen0311_driver', 'rc': 0}
+[16.776350] (-) EventReactorShutdown: {}

@@ -1,0 +1,37 @@
+[4.800s] Invoking command in '/mnt/c/KM/SEN0311/ros_node/sen0311_driver': PYTHONPATH=/mnt/c/KM/SEN0311/ros_node/build/sen0311_driver/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/mnt/c/KM/SEN0311/ros_node/install/sen0311_driver/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base ../build/sen0311_driver build --build-base /mnt/c/KM/SEN0311/ros_node/build/sen0311_driver/build install --record /mnt/c/KM/SEN0311/ros_node/build/sen0311_driver/install.log --install-scripts $base/lib/sen0311_driver --single-version-externally-managed install_data
+[7.098s] running egg_info
+[7.141s] creating ../build/sen0311_driver/sen0311_driver.egg-info
+[7.148s] writing ../build/sen0311_driver/sen0311_driver.egg-info/PKG-INFO
+[7.189s] writing dependency_links to ../build/sen0311_driver/sen0311_driver.egg-info/dependency_links.txt
+[7.212s] writing entry points to ../build/sen0311_driver/sen0311_driver.egg-info/entry_points.txt
+[7.230s] writing requirements to ../build/sen0311_driver/sen0311_driver.egg-info/requires.txt
+[7.241s] writing top-level names to ../build/sen0311_driver/sen0311_driver.egg-info/top_level.txt
+[7.262s] writing manifest file '../build/sen0311_driver/sen0311_driver.egg-info/SOURCES.txt'
+[7.334s] reading manifest file '../build/sen0311_driver/sen0311_driver.egg-info/SOURCES.txt'
+[7.520s] writing manifest file '../build/sen0311_driver/sen0311_driver.egg-info/SOURCES.txt'
+[7.531s] running build
+[7.536s] running build_py
+[7.557s] creating /mnt/c/KM/SEN0311/ros_node/build/sen0311_driver/build
+[7.562s] creating /mnt/c/KM/SEN0311/ros_node/build/sen0311_driver/build/lib
+[7.570s] creating /mnt/c/KM/SEN0311/ros_node/build/sen0311_driver/build/lib/sen0311_driver
+[7.601s] copying sen0311_driver/sen0311_node.py -> /mnt/c/KM/SEN0311/ros_node/build/sen0311_driver/build/lib/sen0311_driver
+[7.673s] copying sen0311_driver/__init__.py -> /mnt/c/KM/SEN0311/ros_node/build/sen0311_driver/build/lib/sen0311_driver
+[7.713s] running install
+[7.719s] running install_lib
+[7.793s] creating /mnt/c/KM/SEN0311/ros_node/install/sen0311_driver/lib/python3.10/site-packages/sen0311_driver
+[7.845s] copying /mnt/c/KM/SEN0311/ros_node/build/sen0311_driver/build/lib/sen0311_driver/sen0311_node.py -> /mnt/c/KM/SEN0311/ros_node/install/sen0311_driver/lib/python3.10/site-packages/sen0311_driver
+[7.966s] copying /mnt/c/KM/SEN0311/ros_node/build/sen0311_driver/build/lib/sen0311_driver/__init__.py -> /mnt/c/KM/SEN0311/ros_node/install/sen0311_driver/lib/python3.10/site-packages/sen0311_driver
+[8.077s] byte-compiling /mnt/c/KM/SEN0311/ros_node/install/sen0311_driver/lib/python3.10/site-packages/sen0311_driver/sen0311_node.py to sen0311_node.cpython-310.pyc
+[8.200s] byte-compiling /mnt/c/KM/SEN0311/ros_node/install/sen0311_driver/lib/python3.10/site-packages/sen0311_driver/__init__.py to __init__.cpython-310.pyc
+[8.305s] running install_data
+[8.328s] creating /mnt/c/KM/SEN0311/ros_node/install/sen0311_driver/share/ament_index
+[8.334s] creating /mnt/c/KM/SEN0311/ros_node/install/sen0311_driver/share/ament_index/resource_index
+[8.343s] creating /mnt/c/KM/SEN0311/ros_node/install/sen0311_driver/share/ament_index/resource_index/packages
+[8.375s] copying resource/sen0311_driver -> /mnt/c/KM/SEN0311/ros_node/install/sen0311_driver/share/ament_index/resource_index/packages
+[8.453s] copying package.xml -> /mnt/c/KM/SEN0311/ros_node/install/sen0311_driver/share/sen0311_driver
+[8.497s] running install_egg_info
+[8.559s] Copying ../build/sen0311_driver/sen0311_driver.egg-info to /mnt/c/KM/SEN0311/ros_node/install/sen0311_driver/lib/python3.10/site-packages/sen0311_driver-0.1.0-py3.10.egg-info
+[9.299s] running install_scripts
+[9.495s] Installing sen0311_node script to /mnt/c/KM/SEN0311/ros_node/install/sen0311_driver/lib/sen0311_driver
+[9.538s] writing list of installed files to '/mnt/c/KM/SEN0311/ros_node/build/sen0311_driver/install.log'
+[9.603s] Invoked command in '/mnt/c/KM/SEN0311/ros_node/sen0311_driver' returned '0': PYTHONPATH=/mnt/c/KM/SEN0311/ros_node/build/sen0311_driver/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/mnt/c/KM/SEN0311/ros_node/install/sen0311_driver/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base ../build/sen0311_driver build --build-base /mnt/c/KM/SEN0311/ros_node/build/sen0311_driver/build install --record /mnt/c/KM/SEN0311/ros_node/build/sen0311_driver/install.log --install-scripts $base/lib/sen0311_driver --single-version-externally-managed install_data

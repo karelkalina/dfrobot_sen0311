@@ -1,8 +1,0 @@
-sensor -> jumper cable -> cable m5
-
-black -> brown -> black
-red -> red -> red
-blue -> yellow -> yellow
-green ->white -> white
-
-cable : https://docs.m5stack.com/en/accessory/cable/grove_cable

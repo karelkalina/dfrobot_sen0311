@@ -23,13 +23,13 @@ uart:
 sensor:
   - platform: a02yyuw
     uart_id: uart_sensor
-    name: Distance
+    name: distance
     id: distance
 
 wifi:
   manual_ip:
-    static_ip: 192.168.105.66
-    gateway: 192.168.105.1
+    static_ip: 192.168.40.21
+    gateway: 192.168.40.1
     subnet: 255.255.255.0
   reboot_timeout: 15min
   output_power: 15dB

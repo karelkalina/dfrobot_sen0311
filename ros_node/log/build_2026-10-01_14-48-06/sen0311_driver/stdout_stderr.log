@@ -1,0 +1,22 @@
+running egg_info
+writing ../build/sen0311_driver/sen0311_driver.egg-info/PKG-INFO
+writing dependency_links to ../build/sen0311_driver/sen0311_driver.egg-info/dependency_links.txt
+writing entry points to ../build/sen0311_driver/sen0311_driver.egg-info/entry_points.txt
+writing requirements to ../build/sen0311_driver/sen0311_driver.egg-info/requires.txt
+writing top-level names to ../build/sen0311_driver/sen0311_driver.egg-info/top_level.txt
+reading manifest file '../build/sen0311_driver/sen0311_driver.egg-info/SOURCES.txt'
+writing manifest file '../build/sen0311_driver/sen0311_driver.egg-info/SOURCES.txt'
+running build
+running build_py
+copying sen0311_driver/sen0311_node.py -> /mnt/c/KM/SEN0311/ros_node/build/sen0311_driver/build/lib/sen0311_driver
+running install
+running install_lib
+copying /mnt/c/KM/SEN0311/ros_node/build/sen0311_driver/build/lib/sen0311_driver/sen0311_node.py -> /mnt/c/KM/SEN0311/ros_node/install/sen0311_driver/lib/python3.10/site-packages/sen0311_driver
+byte-compiling /mnt/c/KM/SEN0311/ros_node/install/sen0311_driver/lib/python3.10/site-packages/sen0311_driver/sen0311_node.py to sen0311_node.cpython-310.pyc
+running install_data
+running install_egg_info
+removing '/mnt/c/KM/SEN0311/ros_node/install/sen0311_driver/lib/python3.10/site-packages/sen0311_driver-0.1.0-py3.10.egg-info' (and everything under it)
+Copying ../build/sen0311_driver/sen0311_driver.egg-info to /mnt/c/KM/SEN0311/ros_node/install/sen0311_driver/lib/python3.10/site-packages/sen0311_driver-0.1.0-py3.10.egg-info
+running install_scripts
+Installing sen0311_node script to /mnt/c/KM/SEN0311/ros_node/install/sen0311_driver/lib/sen0311_driver
+writing list of installed files to '/mnt/c/KM/SEN0311/ros_node/build/sen0311_driver/install.log'

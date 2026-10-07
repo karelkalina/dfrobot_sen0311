@@ -1,0 +1,142 @@
+[0.000000] (-) TimerEvent: {}
+[0.001996] (sen0311_driver) JobQueued: {'identifier': 'sen0311_driver', 'dependencies': OrderedDict()}
+[0.003342] (sen0311_driver) JobStarted: {'identifier': 'sen0311_driver'}
+[0.096669] (-) TimerEvent: {}
+[0.198460] (-) TimerEvent: {}
+[0.300687] (-) TimerEvent: {}
+[0.403929] (-) TimerEvent: {}
+[0.506390] (-) TimerEvent: {}
+[0.610960] (-) TimerEvent: {}
+[0.714673] (-) TimerEvent: {}
+[0.816535] (-) TimerEvent: {}
+[0.918436] (-) TimerEvent: {}
+[1.019986] (-) TimerEvent: {}
+[1.121515] (-) TimerEvent: {}
+[1.223333] (-) TimerEvent: {}
+[1.325284] (-) TimerEvent: {}
+[1.427428] (-) TimerEvent: {}
+[1.529741] (-) TimerEvent: {}
+[1.632100] (-) TimerEvent: {}
+[1.734287] (-) TimerEvent: {}
+[1.836490] (-) TimerEvent: {}
+[1.967558] (-) TimerEvent: {}
+[2.069479] (-) TimerEvent: {}
+[2.171593] (-) TimerEvent: {}
+[2.273391] (-) TimerEvent: {}
+[2.375622] (-) TimerEvent: {}
+[2.477631] (-) TimerEvent: {}
+[2.579652] (-) TimerEvent: {}
+[2.681696] (-) TimerEvent: {}
+[2.783590] (-) TimerEvent: {}
+[2.885296] (-) TimerEvent: {}
+[2.987270] (-) TimerEvent: {}
+[3.089212] (-) TimerEvent: {}
+[3.191083] (-) TimerEvent: {}
+[3.293183] (-) TimerEvent: {}
+[3.395313] (-) TimerEvent: {}
+[3.497221] (-) TimerEvent: {}
+[3.599432] (-) TimerEvent: {}
+[3.701052] (-) TimerEvent: {}
+[3.802614] (-) TimerEvent: {}
+[3.904439] (-) TimerEvent: {}
+[4.006588] (-) TimerEvent: {}
+[4.108391] (-) TimerEvent: {}
+[4.210505] (-) TimerEvent: {}
+[4.312738] (-) TimerEvent: {}
+[4.415053] (-) TimerEvent: {}
+[4.517059] (-) TimerEvent: {}
+[4.618678] (-) TimerEvent: {}
+[4.720731] (-) TimerEvent: {}
+[4.774544] (sen0311_driver) Command: {'cmd': ['/usr/bin/python3', '-W', 'ignore:setup.py install is deprecated', '-W', 'ignore:easy_install command is deprecated', 'setup.py', 'egg_info', '--egg-base', '../build/sen0311_driver', 'build', '--build-base', '/mnt/c/KM/SEN0311/ros_node/build/sen0311_driver/build', 'install', '--record', '/mnt/c/KM/SEN0311/ros_node/build/sen0311_driver/install.log', '--install-scripts', '$base/lib/sen0311_driver', '--single-version-externally-managed', 'install_data'], 'cwd': '/mnt/c/KM/SEN0311/ros_node/sen0311_driver', 'env': {'LESSOPEN': '| /usr/bin/lesspipe %s', 'USER': 'fakeqwertzy', 'ANTIGRAVITY_SOURCE_METADATA': '{"tool":{"conversationId":"af08b39b-f258-463c-9cbd-1d7802b96306", "stepIndex":71, "toolCall":{"id":"call_138546", "name":"run_command", "argumentsJson":"{\\"CommandLine\\":\\"cd ros_node \\\\u0026\\\\u0026 colcon build\\",\\"Cwd\\":\\"/mnt/c/KM/SEN0311\\",\\"WaitMsBeforeAsync\\":10000,\\"toolAction\\":\\"Building ROS node\\",\\"toolSummary\\":\\"Build ROS node\\"}", "thinkingSignature":"Eo4CCosCAWkUfRMkgLXeep414o6mNxlRd0XZ+lRECGdG1lj/eOtHa4BzVVvWyFLzDEEQB8ML7+tZFjWGp3hVGahijdqknagGvDc98F48a0dQJyDksNxPoV9apP0TkWA0l7AFAj818ARjpTRkXpcjb0sOY9K35K6WCm3NW0DjQ7NH2VxwkJbZBjkNc9tqyJassZOANdxG4ra3O+a0KAyudAmhjIZX1hJ10X+fRCvUgidHsiEqmmi4jREYLr9vLFiGQ8mDa4iMA1OjSguwqXG/In3MgDDT4m5vNhSKVrlctwRcsPNEqPSo+NRCIl3rp0jG4GVuIhh/eVa+cH25ZcbqCGNcFskDPb347qhg/y0I0hYn"}}}', 'ANTIGRAVITY_AGENTAPI_EXE': '/home/fakeqwertzy/.local/bin/agy', 'SHLVL': '1', 'LD_LIBRARY_PATH': '/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib', 'MOTD_SHOWN': 'update-motd', 'HOME': '/home/fakeqwertzy', 'OLDPWD': '/mnt/c/KM/SEN0311', 'NVM_BIN': '/home/fakeqwertzy/.nvm/versions/node/v24.19.0/bin', 'NVM_INC': '/home/fakeqwertzy/.nvm/versions/node/v24.19.0/include/node', 'ROS_PYTHON_VERSION': '3', 'PAGER': 'cat', 'WSL_DISTRO_NAME': 'Ubuntu', 'ANTIGRAVITY_AGENT': '1', 'NVM_DIR': '/home/fakeqwertzy/.nvm', 'WAYLAND_DISPLAY': 'wayland-0', 'ROS_DISTRO': 'humble', 'LOGNAME': 'fakeqwertzy', 'NAME': 'ToJeMoje', 'WSL_INTEROP': '/run/WSL/9_interop', 'IGN_GAZEBO_MODEL_PATH': '/opt/ros/humble/share', 'PULSE_SERVER': 'unix:/mnt/wslg/PulseServer', '_': '/usr/bin/colcon', 'ROS_VERSION': '2', 'TERM': 'dumb', 'GAZEBO_MODEL_PATH': '/opt/ros/humble/share', 'ROS_LOCALHOST_ONLY': '0', 'ANTIGRAVITY_APP_DATA_DIR': '/home/fakeqwertzy/.gemini/antigravity-cli', 'ANTIGRAVITY_LS_VERSION': 'cli-1.2.14', 'PATH': '/home/fakeqwertzy/.gemini/antigravity-cli/bin:/home/fakeqwertzy/.local/bin:/home/fakeqwertzy/.local/bin:/opt/ros/humble/bin:/home/fakeqwertzy/.local/bin:/home/fakeqwertzy/.local/bin:/home/fakeqwertzy/.pixi/bin:/home/fakeqwertzy/.nvm/versions/node/v24.19.0/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/usr/lib/wsl/lib:/mnt/c/Program Files/Common Files/Oracle/Java/javapath:/mnt/c/windows/system32:/mnt/c/windows:/mnt/c/windows/System32/Wbem:/mnt/c/windows/System32/WindowsPowerShell/v1.0/:/mnt/c/windows/System32/OpenSSH/:/mnt/c/Program Files/Git/cmd:/mnt/c/Program Files/nodejs/:/mnt/c/Program Files/dotnet/:/mnt/c/WINDOWS/system32:/mnt/c/WINDOWS:/mnt/c/WINDOWS/System32/Wbem:/mnt/c/WINDOWS/System32/WindowsPowerShell/v1.0/:/mnt/c/WINDOWS/System32/OpenSSH/:/mnt/c/Program Files/Calibre2/:/mnt/c/Program Files (x86)/IVI Foundation/VISA/WinNT/Bin:/mnt/c/Program Files/PuTTY/:/mnt/c/Program Files/usbipd-win/:/mnt/c/Program Files/Mullvad VPN/resources:/mnt/c/Program Files/WSL/:/mnt/c/Users/karel/AppData/Local/Programs/Python/Python313/Scripts/:/mnt/c/Users/karel/AppData/Local/Programs/Python/Python313/:/mnt/c/Program Files/MySQL/MySQL Shell 8.0/bin/:/mnt/c/Users/karel/AppData/Local/Microsoft/WindowsApps:/mnt/c/Users/karel/AppData/Local/Programs/Microsoft VS Code/bin:/mnt/c/Users/karel/AppData/Roaming/npm:/mnt/c/Program Files/nodejs:/mnt/c/Users/karel/.dotnet/tools:/mnt/c/Users/karel/AppData/Local/Microsoft/WindowsApps:/mnt/c/Users/karel/AppData/Local/Python/bin:/snap/bin', 'XDG_RUNTIME_DIR': '/mnt/wslg/runtime-dir', 'DISPLAY': ':0', 'LANG': 'C.UTF-8', 'ANTIGRAVITY_CONVERSATION_ID': 'af08b39b-f258-463c-9cbd-1d7802b96306', 'LS_COLORS': 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:', 'AMENT_PREFIX_PATH': '/opt/ros/humble', 'ANTIGRAVITY_PROJECT_ID': 'default-cli-project', 'SHELL': '/bin/bash', 'ANTIGRAVITY_LS_ADDRESS': 'localhost:41889', 'LESSCLOSE': '/usr/bin/lesspipe %s %s', 'IGN_GAZEBO_RESOURCE_PATH': '/opt/ros/humble/share', 'GAZEBO_RESOURCE_PATH': '/opt/ros/humble/share', 'GIT_PAGER': 'cat', 'ANTIGRAVITY_TRAJECTORY_ID': 'e5773835-6641-41b6-a096-d258a0d62737', 'PWD': '/mnt/c/KM/SEN0311/ros_node/build/sen0311_driver', 'NVM_CD_FLAGS': '', 'XDG_DATA_DIRS': '/usr/local/share:/usr/share:/var/lib/snapd/desktop', 'PYTHONPATH': '/mnt/c/KM/SEN0311/ros_node/build/sen0311_driver/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/mnt/c/KM/SEN0311/ros_node/install/sen0311_driver/lib/python3.10/site-packages:/opt/ros/humble/lib/python3.10/site-packages:/opt/ros/humble/local/lib/python3.10/dist-packages', 'COLCON': '1', 'WSL2_GUI_APPS_ENABLED': '1', 'ANTIGRAVITY_CSRF_TOKEN': '407bb706-1836-43f4-beec-6a49f295d3b9', 'HOSTTYPE': 'x86_64', 'WSLENV': ''}, 'shell': False}
+[4.820946] (-) TimerEvent: {}
+[4.922710] (-) TimerEvent: {}
+[5.024874] (-) TimerEvent: {}
+[5.127279] (-) TimerEvent: {}
+[5.229248] (-) TimerEvent: {}
+[5.331143] (-) TimerEvent: {}
+[5.433099] (-) TimerEvent: {}
+[5.535038] (-) TimerEvent: {}
+[5.636992] (-) TimerEvent: {}
+[5.739301] (-) TimerEvent: {}
+[5.841318] (-) TimerEvent: {}
+[5.943297] (-) TimerEvent: {}
+[6.045082] (-) TimerEvent: {}
+[6.147046] (-) TimerEvent: {}
+[6.248795] (-) TimerEvent: {}
+[6.351250] (-) TimerEvent: {}
+[6.453964] (-) TimerEvent: {}
+[6.555876] (-) TimerEvent: {}
+[6.657707] (-) TimerEvent: {}
+[6.760105] (-) TimerEvent: {}
+[6.862255] (-) TimerEvent: {}
+[6.964339] (-) TimerEvent: {}
+[7.066169] (-) TimerEvent: {}
+[7.097923] (sen0311_driver) StdoutLine: {'line': b'running egg_info\n'}
+[7.142037] (sen0311_driver) StdoutLine: {'line': b'creating ../build/sen0311_driver/sen0311_driver.egg-info\n'}
+[7.148751] (sen0311_driver) StdoutLine: {'line': b'writing ../build/sen0311_driver/sen0311_driver.egg-info/PKG-INFO\n'}
+[7.167087] (-) TimerEvent: {}
+[7.189909] (sen0311_driver) StdoutLine: {'line': b'writing dependency_links to ../build/sen0311_driver/sen0311_driver.egg-info/dependency_links.txt\n'}
+[7.212178] (sen0311_driver) StdoutLine: {'line': b'writing entry points to ../build/sen0311_driver/sen0311_driver.egg-info/entry_points.txt\n'}
+[7.230660] (sen0311_driver) StdoutLine: {'line': b'writing requirements to ../build/sen0311_driver/sen0311_driver.egg-info/requires.txt\n'}
+[7.242106] (sen0311_driver) StdoutLine: {'line': b'writing top-level names to ../build/sen0311_driver/sen0311_driver.egg-info/top_level.txt\n'}
+[7.262623] (sen0311_driver) StdoutLine: {'line': b"writing manifest file '../build/sen0311_driver/sen0311_driver.egg-info/SOURCES.txt'\n"}
+[7.268256] (-) TimerEvent: {}
+[7.331741] (sen0311_driver) StdoutLine: {'line': b"reading manifest file '../build/sen0311_driver/sen0311_driver.egg-info/SOURCES.txt'\n"}
+[7.368553] (-) TimerEvent: {}
+[7.470495] (-) TimerEvent: {}
+[7.519643] (sen0311_driver) StdoutLine: {'line': b"writing manifest file '../build/sen0311_driver/sen0311_driver.egg-info/SOURCES.txt'\n"}
+[7.530411] (sen0311_driver) StdoutLine: {'line': b'running build\n'}
+[7.537150] (sen0311_driver) StdoutLine: {'line': b'running build_py\n'}
+[7.551082] (sen0311_driver) StdoutLine: {'line': b'creating /mnt/c/KM/SEN0311/ros_node/build/sen0311_driver/build\n'}
+[7.563086] (sen0311_driver) StdoutLine: {'line': b'creating /mnt/c/KM/SEN0311/ros_node/build/sen0311_driver/build/lib\n'}
+[7.570523] (sen0311_driver) StdoutLine: {'line': b'creating /mnt/c/KM/SEN0311/ros_node/build/sen0311_driver/build/lib/sen0311_driver\n'}
+[7.576307] (-) TimerEvent: {}
+[7.601832] (sen0311_driver) StdoutLine: {'line': b'copying sen0311_driver/sen0311_node.py -> /mnt/c/KM/SEN0311/ros_node/build/sen0311_driver/build/lib/sen0311_driver\n'}
+[7.673454] (sen0311_driver) StdoutLine: {'line': b'copying sen0311_driver/__init__.py -> /mnt/c/KM/SEN0311/ros_node/build/sen0311_driver/build/lib/sen0311_driver\n'}
+[7.678807] (-) TimerEvent: {}
+[7.714385] (sen0311_driver) StdoutLine: {'line': b'running install\n'}
+[7.719543] (sen0311_driver) StdoutLine: {'line': b'running install_lib\n'}
+[7.779117] (-) TimerEvent: {}
+[7.791886] (sen0311_driver) StdoutLine: {'line': b'creating /mnt/c/KM/SEN0311/ros_node/install/sen0311_driver/lib/python3.10/site-packages/sen0311_driver\n'}
+[7.844954] (sen0311_driver) StdoutLine: {'line': b'copying /mnt/c/KM/SEN0311/ros_node/build/sen0311_driver/build/lib/sen0311_driver/sen0311_node.py -> /mnt/c/KM/SEN0311/ros_node/install/sen0311_driver/lib/python3.10/site-packages/sen0311_driver\n'}
+[7.879294] (-) TimerEvent: {}
+[7.967017] (sen0311_driver) StdoutLine: {'line': b'copying /mnt/c/KM/SEN0311/ros_node/build/sen0311_driver/build/lib/sen0311_driver/__init__.py -> /mnt/c/KM/SEN0311/ros_node/install/sen0311_driver/lib/python3.10/site-packages/sen0311_driver\n'}
+[7.979510] (-) TimerEvent: {}
+[8.077608] (sen0311_driver) StdoutLine: {'line': b'byte-compiling /mnt/c/KM/SEN0311/ros_node/install/sen0311_driver/lib/python3.10/site-packages/sen0311_driver/sen0311_node.py to sen0311_node.cpython-310.pyc\n'}
+[8.082942] (-) TimerEvent: {}
+[8.184532] (-) TimerEvent: {}
+[8.201038] (sen0311_driver) StdoutLine: {'line': b'byte-compiling /mnt/c/KM/SEN0311/ros_node/install/sen0311_driver/lib/python3.10/site-packages/sen0311_driver/__init__.py to __init__.cpython-310.pyc\n'}
+[8.284744] (-) TimerEvent: {}
+[8.306197] (sen0311_driver) StdoutLine: {'line': b'running install_data\n'}
+[8.327843] (sen0311_driver) StdoutLine: {'line': b'creating /mnt/c/KM/SEN0311/ros_node/install/sen0311_driver/share/ament_index\n'}
+[8.335310] (sen0311_driver) StdoutLine: {'line': b'creating /mnt/c/KM/SEN0311/ros_node/install/sen0311_driver/share/ament_index/resource_index\n'}
+[8.344059] (sen0311_driver) StdoutLine: {'line': b'creating /mnt/c/KM/SEN0311/ros_node/install/sen0311_driver/share/ament_index/resource_index/packages\n'}
+[8.375572] (sen0311_driver) StdoutLine: {'line': b'copying resource/sen0311_driver -> /mnt/c/KM/SEN0311/ros_node/install/sen0311_driver/share/ament_index/resource_index/packages\n'}
+[8.384934] (-) TimerEvent: {}
+[8.453421] (sen0311_driver) StdoutLine: {'line': b'copying package.xml -> /mnt/c/KM/SEN0311/ros_node/install/sen0311_driver/share/sen0311_driver\n'}
+[8.485159] (-) TimerEvent: {}
+[8.498059] (sen0311_driver) StdoutLine: {'line': b'running install_egg_info\n'}
+[8.553994] (sen0311_driver) StdoutLine: {'line': b'Copying ../build/sen0311_driver/sen0311_driver.egg-info to /mnt/c/KM/SEN0311/ros_node/install/sen0311_driver/lib/python3.10/site-packages/sen0311_driver-0.1.0-py3.10.egg-info\n'}
+[8.585415] (-) TimerEvent: {}
+[8.687474] (-) TimerEvent: {}
+[8.789605] (-) TimerEvent: {}
+[8.891465] (-) TimerEvent: {}
+[8.993299] (-) TimerEvent: {}
+[9.095165] (-) TimerEvent: {}
+[9.196973] (-) TimerEvent: {}
+[9.298658] (-) TimerEvent: {}
+[9.300165] (sen0311_driver) StdoutLine: {'line': b'running install_scripts\n'}
+[9.398923] (-) TimerEvent: {}
+[9.496295] (sen0311_driver) StdoutLine: {'line': b'Installing sen0311_node script to /mnt/c/KM/SEN0311/ros_node/install/sen0311_driver/lib/sen0311_driver\n'}
+[9.500702] (-) TimerEvent: {}
+[9.538991] (sen0311_driver) StdoutLine: {'line': b"writing list of installed files to '/mnt/c/KM/SEN0311/ros_node/build/sen0311_driver/install.log'\n"}
+[9.601322] (-) TimerEvent: {}
+[9.603960] (sen0311_driver) CommandEnded: {'returncode': 0}
+[9.701672] (-) TimerEvent: {}
+[9.803275] (-) TimerEvent: {}
+[9.905213] (-) TimerEvent: {}
+[10.006904] (-) TimerEvent: {}
+[10.108604] (-) TimerEvent: {}
+[10.210194] (-) TimerEvent: {}
+[10.254976] (sen0311_driver) JobEnded: {'identifier': 'sen0311_driver', 'rc': 0}
+[10.272736] (-) EventReactorShutdown: {}

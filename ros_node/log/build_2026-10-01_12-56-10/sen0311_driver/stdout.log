@@ -1,0 +1,35 @@
+running egg_info
+creating ../build/sen0311_driver/sen0311_driver.egg-info
+writing ../build/sen0311_driver/sen0311_driver.egg-info/PKG-INFO
+writing dependency_links to ../build/sen0311_driver/sen0311_driver.egg-info/dependency_links.txt
+writing entry points to ../build/sen0311_driver/sen0311_driver.egg-info/entry_points.txt
+writing requirements to ../build/sen0311_driver/sen0311_driver.egg-info/requires.txt
+writing top-level names to ../build/sen0311_driver/sen0311_driver.egg-info/top_level.txt
+writing manifest file '../build/sen0311_driver/sen0311_driver.egg-info/SOURCES.txt'
+reading manifest file '../build/sen0311_driver/sen0311_driver.egg-info/SOURCES.txt'
+writing manifest file '../build/sen0311_driver/sen0311_driver.egg-info/SOURCES.txt'
+running build
+running build_py
+creating /mnt/c/KM/SEN0311/ros_node/build/sen0311_driver/build
+creating /mnt/c/KM/SEN0311/ros_node/build/sen0311_driver/build/lib
+creating /mnt/c/KM/SEN0311/ros_node/build/sen0311_driver/build/lib/sen0311_driver
+copying sen0311_driver/sen0311_node.py -> /mnt/c/KM/SEN0311/ros_node/build/sen0311_driver/build/lib/sen0311_driver
+copying sen0311_driver/__init__.py -> /mnt/c/KM/SEN0311/ros_node/build/sen0311_driver/build/lib/sen0311_driver
+running install
+running install_lib
+creating /mnt/c/KM/SEN0311/ros_node/install/sen0311_driver/lib/python3.10/site-packages/sen0311_driver
+copying /mnt/c/KM/SEN0311/ros_node/build/sen0311_driver/build/lib/sen0311_driver/sen0311_node.py -> /mnt/c/KM/SEN0311/ros_node/install/sen0311_driver/lib/python3.10/site-packages/sen0311_driver
+copying /mnt/c/KM/SEN0311/ros_node/build/sen0311_driver/build/lib/sen0311_driver/__init__.py -> /mnt/c/KM/SEN0311/ros_node/install/sen0311_driver/lib/python3.10/site-packages/sen0311_driver
+byte-compiling /mnt/c/KM/SEN0311/ros_node/install/sen0311_driver/lib/python3.10/site-packages/sen0311_driver/sen0311_node.py to sen0311_node.cpython-310.pyc
+byte-compiling /mnt/c/KM/SEN0311/ros_node/install/sen0311_driver/lib/python3.10/site-packages/sen0311_driver/__init__.py to __init__.cpython-310.pyc
+running install_data
+creating /mnt/c/KM/SEN0311/ros_node/install/sen0311_driver/share/ament_index
+creating /mnt/c/KM/SEN0311/ros_node/install/sen0311_driver/share/ament_index/resource_index
+creating /mnt/c/KM/SEN0311/ros_node/install/sen0311_driver/share/ament_index/resource_index/packages
+copying resource/sen0311_driver -> /mnt/c/KM/SEN0311/ros_node/install/sen0311_driver/share/ament_index/resource_index/packages
+copying package.xml -> /mnt/c/KM/SEN0311/ros_node/install/sen0311_driver/share/sen0311_driver
+running install_egg_info
+Copying ../build/sen0311_driver/sen0311_driver.egg-info to /mnt/c/KM/SEN0311/ros_node/install/sen0311_driver/lib/python3.10/site-packages/sen0311_driver-0.1.0-py3.10.egg-info
+running install_scripts
+Installing sen0311_node script to /mnt/c/KM/SEN0311/ros_node/install/sen0311_driver/lib/sen0311_driver
+writing list of installed files to '/mnt/c/KM/SEN0311/ros_node/build/sen0311_driver/install.log'
