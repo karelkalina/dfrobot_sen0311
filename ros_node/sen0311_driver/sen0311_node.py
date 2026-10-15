@@ -1,10 +1,19 @@
 #!/usr/bin/env python3
-import requests
+
 import rclpy
+import requests
 from rclpy.node import Node
 from sensor_msgs.msg import Range
 
+
 class SEN0311Node(Node):
+    """
+    ROS node for the SEN0311 ultrasonic distance sensor.
+
+    ROS node for the SEN0311 ultrasonic distance sensor connected to an M5 Atom Lite on
+    which ESPHome is running. It polls the sensor over HTTP and publishes the distance as
+    a Range message.
+    """
     def __init__(self):
         super().__init__('sen0311_node')
         self.declare_parameter('sensor_ip', '192.168.40.21')
@@ -17,7 +26,7 @@ class SEN0311Node(Node):
 
         self.url = f'http://{self.sensor_ip}/sensor/distance'
         self.session = requests.Session()
-        self.publisher_ = self.create_publisher(Range, '/sen0311/Distance', 10)
+        self.publisher_ = self.create_publisher(Range, '/sen0311/range', 10)
         self.timer = self.create_timer(poll_period, self.timer_callback)
 
         self.get_logger().info(f'SEN0311 node started: {self.url}')
@@ -27,20 +36,22 @@ class SEN0311Node(Node):
             response = self.session.get(self.url, timeout=(1.0, 2.0))
             response.raise_for_status()
             data = response.json()
-            distance_m = float(data['value'])
+            distance_mm = float(data['value'])
+            distance_m = 0.001 * distance_mm
 
             msg = Range()
             msg.header.stamp = self.get_clock().now().to_msg()
             msg.header.frame_id = self.frame_id
             msg.radiation_type = Range.ULTRASOUND
             msg.field_of_view = 0.1
-            msg.min_range = 0.0
-            msg.max_range = 10.0
+            msg.min_range = 0.030
+            msg.max_range = 4.5
             msg.range = distance_m
 
             self.publisher_.publish(msg)
         except Exception as e:
             self.get_logger().warn(f'Error: {e}', throttle_duration_sec=2.0)
+
 
 def main(args=None):
     rclpy.init(args=args)
@@ -52,6 +63,7 @@ def main(args=None):
     finally:
         node.destroy_node()
         rclpy.shutdown()
+
 
 if __name__ == '__main__':
     main()

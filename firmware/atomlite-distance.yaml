@@ -5,6 +5,7 @@ esphome:
   name: $devicename
   name_add_mac_suffix: true
   platformio_options:
+    upload_speed: 115200
     build_flags:
       - -D CORE_DEBUG_LEVEL=0
       - -D ARDUINO_LOG_LEVEL=0
@@ -27,6 +28,8 @@ sensor:
     id: distance
 
 wifi:
+  ssid: !secret wifi_ssid
+  password: !secret wifi_password
   manual_ip:
     static_ip: 192.168.40.21
     gateway: 192.168.40.1
